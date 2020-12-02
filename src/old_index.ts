@@ -239,7 +239,7 @@ export function convertNumberToEnglishText(n: number): string {
             }
         }
     }
-    // not ones number or number out of range (-99999 - 99999)
+    // number out of range (-99999 - 99999)
     return 'bad number!';
 }
 
